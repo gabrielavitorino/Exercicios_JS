@@ -1,0 +1,41 @@
+function parimp(n){
+    if(n%2 == 0){
+        return 'par';
+    } else {
+        return 'ímpar';
+    }
+}
+
+let res = parimp(12);
+//console.log(res);
+
+///////////////////////////
+
+function soma(n1, n2){
+    return n1+n2;
+}
+
+//console.log(soma(5,5));
+///////////////////
+
+let v = function(x){
+    return x*2;
+}
+//console.log(v(11));
+
+
+/////// 5! = 5*4*3*2*1
+
+let fatorial = function(number){
+    for(var i = 1; number >= i ; number--){
+       console.log(number)
+       for(;number; number * (number-1)){
+        console.log(number)
+
+       } 
+    }
+}
+
+console.log(fatorial(5));
+
+console.log(25+16+9+4+1)
